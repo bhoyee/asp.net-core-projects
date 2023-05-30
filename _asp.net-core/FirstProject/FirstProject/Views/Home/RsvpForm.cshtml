@@ -12,6 +12,8 @@
         
          <p>Fill the below Rsvp Form</p>
          <form method="post" action="/Home/RsvpForm">
+              <div asp-validation-summary="All"></div>
+
              <div>
                  <label asp-for="Name">Your name:</label>
                  <input asp-for="Name" />
